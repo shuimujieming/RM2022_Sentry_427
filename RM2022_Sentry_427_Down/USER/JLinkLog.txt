@@ -1,0 +1,65 @@
+T0698 000:005.342   SEGGER J-Link V6.86 Log File
+T0698 000:005.466   DLL Compiled: Sep 24 2020 17:31:31
+T0698 000:005.473   Logging started @ 2021-12-19 14:19
+T0698 000:005.479 - 5.482ms
+T0698 000:005.489 JLINK_SetWarnOutHandler(...)
+T0698 000:005.497 - 0.010ms
+T0698 000:005.504 JLINK_OpenEx(...)
+T0698 000:006.716   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T0698 000:006.881   Decompressing FW timestamp took 133 us
+T0698 000:012.818   Hardware: V9.70
+T0698 000:012.843   S/N: 150710123
+T0698 000:012.852   OEM: SEGGER
+T0698 000:012.860   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T0698 000:013.761   TELNET listener socket opened on port 19021
+T0698 000:013.857   WEBSRV Starting webserver
+T0698 000:014.022   WEBSRV Webserver running on local port 19080
+T0698 000:014.034 - 8.532ms returns "O.K."
+T0698 000:014.049 JLINK_GetEmuCaps()
+T0698 000:014.075 - 0.029ms returns 0xB9FF7BBF
+T0698 000:014.087 JLINK_TIF_GetAvailable(...)
+T0698 000:014.193 - 0.112ms
+T0698 000:014.207 JLINK_SetErrorOutHandler(...)
+T0698 000:014.213 - 0.009ms
+T0698 000:014.230 JLINK_ExecCommand("ProjectFile = "C:\Users\shuimujieming\Desktop\RM2022_Sentry_427_Down\USER\JLinkSettings.ini"", ...). 
+T0698 000:022.214 - 7.994ms returns 0x00
+T0698 000:024.988 JLINK_ExecCommand("Device = STM32F427IIHx", ...). 
+T0698 000:027.682   Device "STM32F427II" selected.
+T0698 000:028.022 - 3.025ms returns 0x00
+T0698 000:028.040 JLINK_GetHardwareVersion()
+T0698 000:028.047 - 0.009ms returns 97000
+T0698 000:028.058 JLINK_GetDLLVersion()
+T0698 000:028.064 - 0.008ms returns 68600
+T0698 000:028.071 JLINK_GetOEMString(...)
+T0698 000:028.079 JLINK_GetFirmwareString(...)
+T0698 000:028.085 - 0.008ms
+T0698 000:036.359 JLINK_GetDLLVersion()
+T0698 000:036.377 - 0.021ms returns 68600
+T0698 000:036.386 JLINK_GetCompileDateTime()
+T0698 000:036.392 - 0.008ms
+T0698 000:038.535 JLINK_GetFirmwareString(...)
+T0698 000:038.546 - 0.014ms
+T0698 000:040.663 JLINK_GetHardwareVersion()
+T0698 000:040.674 - 0.013ms returns 97000
+T0698 000:042.794 JLINK_GetSN()
+T0698 000:042.805 - 0.014ms returns 150710123
+T0698 000:044.928 JLINK_GetOEMString(...)
+T0698 000:049.484 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0698 000:050.259 - 0.786ms returns 0x00
+T0698 000:050.279 JLINK_HasError()
+T0698 000:050.295 JLINK_SetSpeed(5000)
+T0698 000:050.430 - 0.142ms
+T0698 000:050.445 JLINK_GetId()
+T0698 000:675.085   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0698 000:831.051   
+  ***** Error: 
+T0698 000:831.128   STM32: Connecting to CPU via connect under reset failed.
+T0698 001:063.794   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0698 001:218.964   
+  ***** Error: 
+T0698 001:219.042   STM32: Connecting to CPU via connect under reset failed.
+T0698 001:269.850 - 1219.429ms returns 0x00000000
+T0698 001:963.076 JLINK_Close()
+T0698 001:971.180 - 8.121ms
+T0698 001:971.201   
+T0698 001:971.207   Closed
